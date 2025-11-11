@@ -7,7 +7,7 @@ from tqdm import tqdm
 # ==============================
 input_dir = "data_raw/images/val"   # Eingangsordner (train)
 output_dir = "data/images/val"      # Zielordner
-target_width = 640                  # Zielbreite in Pixeln
+target_width = 320                  # Zielbreite in Pixeln
 
 # Ordnerstruktur automatisch erstellen
 os.makedirs(output_dir, exist_ok=True)
