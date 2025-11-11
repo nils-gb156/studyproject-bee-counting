@@ -1,2 +1,4 @@
-/data
+/data/images/train
+/data/images/val
+/data/labels/
 /data_raw
