@@ -6,8 +6,8 @@ model = YOLO('yolov8n.pt')
 # Training starten
 model.train(
     data='yolov8_bee.yaml',
-    imgsz=[320, 180],
-    epochs=50,
+    imgsz=[640, 360],
+    epochs=100,
     batch=16,
     cache=True
 )
